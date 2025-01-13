@@ -102,9 +102,21 @@ nav {
   }
   /* about styles*/
   .about {
+    border: #000000 solid 2px;
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    margin: 130px 0px;
   }
-  
+  .about-items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .item-title {
+    font-size: 20px;
+  }
+  .item-description {
+    font-size: 20px;
+    font-weight: bold;
+  }
