@@ -5,6 +5,9 @@
   .dark-2 {
     color: #474747;
   }
+  .dark-1 {
+    color: #757575;
+  }
   .btn-primary {
     color: #FFFFFF;
     background-color: #FD6E0A;
@@ -13,6 +16,12 @@
     border-radius: 5px;
     border: none;
     font-size: 20px;
+  }
+  /* header styles */
+  header {
+    background-image: url("../assets/developer.png"), url("../assets/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
   }
 /* Nav styles */
 nav {
@@ -45,3 +54,34 @@ nav {
     text-decoration: none;
     font-size: 20px;
   }
+/* banner styles */
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+  }
+  .banner-content {
+    max-width: 580px;
+  }
+  .banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .banner-title {
+    font-size: 85px;
+    font-weight: bold;
+  }
+  .banner-description {
+    font-size: 18px;
+  }
+  .btn-contact {
+    border-radius: 5px;
+    border: #FD6E0A solid 1px;
+    padding: 15px 35px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .banner-profile-pic {
+    width: 580px;
+  }
+  
