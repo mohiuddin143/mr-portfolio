@@ -27,6 +27,7 @@
   }
   .section-description {
     font-size: 18px;
+    padding: 20px;
   }
   /* header styles */
   header {
@@ -120,3 +121,19 @@ nav {
     font-size: 20px;
     font-weight: bold;
   }
+/* what i do */
+.what-item {
+  text-align: center;
+  max-width: 900px;
+}
+
+/* skill container */
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+.skill-description {
+  padding: 30px 0px;
+  border-radius: 5px;
+  box-shadow: 0, 6, 50, 0 black;
+}
